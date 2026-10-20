@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1",
+  "estado": "plantilla_no_ejecutable",
+  "id": null,
+  "tipo_estudio": null,
+  "responsable": null,
+  "fecha": null,
+  "referencias": {
+    "geometria_revision": null,
+    "malla_revision": null,
+    "scripts_commit": null,
+    "fuentes": []
+  },
+  "sistema_referencia": {
+    "unidades": "SI",
+    "escala": null,
+    "origen": null,
+    "ejes_y_signos": null,
+    "nivel_agua_m": null
+  },
+  "buque": {
+    "LWL_m": null,
+    "manga_total_m": null,
+    "separacion_centros_cascos_m": null,
+    "calado_proa_m": null,
+    "calado_popa_m": null,
+    "masa_kg": null,
+    "centro_gravedad_m": null,
+    "superficie_mojada_m2": null
+  },
+  "operacion": {
+    "velocidades_m_s": [],
+    "profundidad_m": null,
+    "trimado_inicial_deg": null,
+    "grados_libertad": null
+  },
+  "fluido": {
+    "densidad_kg_m3": null,
+    "viscosidad_dinamica_Pa_s": null,
+    "temperatura_C": null,
+    "presion_referencia_absoluta_Pa": null,
+    "presion_vapor_Pa": null
+  },
+  "propulsion": {
+    "numero_helices": null,
+    "diametro_m": null,
+    "numero_palas": null,
+    "paso_y_distribucion": null,
+    "rpm": null,
+    "sentido_giro": null,
+    "posicion_ejes_m": null,
+    "geometria_revision": null
+  },
+  "numerica": {
+    "solver": null,
+    "version": null,
+    "modelos": null,
+    "dominio": null,
+    "condiciones_contorno": null,
+    "tratamiento_pared_y_yplus": null,
+    "movimiento_rotacion": null,
+    "paso_tiempo_s": null,
+    "criterios_convergencia": null,
+    "ventana_promediado_s": null
+  },
+  "verificacion": {
+    "sensibilidad_malla": null,
+    "sensibilidad_dominio": null,
+    "sensibilidad_temporal": null,
+    "balance_masa": null
+  },
+  "validacion": {
+    "datos_referencia": null,
+    "metrica_error": null,
+    "incertidumbre": null
+  },
+  "activos_externos": [
+    {
+      "descripcion": null,
+      "uri": null,
+      "sha256": null,
+      "tamano_bytes": null
+    }
+  ],
+  "aprobacion_tecnica": {
+    "revisor": null,
+    "fecha": null,
+    "estado": "pendiente"
+  }
+}

@@ -1,0 +1,40 @@
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+# Python y entornos
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+# Activos y salidas voluminosas: usar manifiestos
+*.stl
+*.step
+*.stp
+*.iges
+*.igs
+*.3dm
+*.msh
+*.cas
+*.cas.h5
+*.dat.h5
+*.vtk
+*.vtu
+*.vtp
+*.foam
+*.zip
+*.7z
+# Directorios generados por caso; no excluir configuraciones ni resúmenes
+**/raw/
+**/processor[0-9]*/
+**/postProcessing/
+**/constant/polyMesh/
+**/logs/
+*.log
